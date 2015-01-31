@@ -1,0 +1,62 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_centerVertical="true"
+	    android:layout_centerHorizontal="true"
+	    tools:context=".MainActivity" >
+	    
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:gravity="center"
+	        >
+	
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/testitekstikentta"
+	            style="@style/button_text"
+	            android:textColor = "#78BB44"
+	            android:textSize = "26sp"
+	            android:typeface = "serif" />
+	
+	        <Button
+	            android:id="@+id/skannaaKuittiButton"
+	            style="@style/button_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/blue_button"
+	            android:onClick="onSkannaaKuitti"
+	            android:text="@string/skannaaKuitti" />
+	
+	        <Button
+	            android:id="@+id/selaaTuotteitaButton"
+	            style="@style/button_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/blue_button"
+	            android:onClick="onSelaaTuotteita"
+	            android:text="@string/selaaTuotteita" />
+	
+	        <Button
+	            android:id="@+id/selaaKuittejaButton"
+	            style="@style/button_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/blue_button"
+	            android:onClick="onSelaaKuitteja"
+	            android:text="@string/selaaKuitteja" />
+	        
+	    </LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+   	<string name="skannaaKuitti">Skannaa kuitti</string>
+   	<string name="action_settings">act_set</string>
+   	<string name="app_name">LinkkiOCR</string>
+   	<string name="desc">imageview</string>
+   	<string name="testitekstikentta"> KUITTISKANNERI</string>
+   	<string name="selaaKuitteja">Selaa kuitteja</string>
+ 	<string name="selaaTuotteita">Selaa tuotteita</string>
+ 	
+ 	<string name="menu_muokkaa">Muokkaa</string>
+ 	<string name="menu_poista">Poista</string>
+</resources>
+
